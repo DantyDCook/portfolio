@@ -81,10 +81,10 @@ I am a versatile **Data Analyst** and emerging **Data Engineer** based in Tennes
 
 ## 📄 Learn More
 
-- [Résumé]({{ site.baseurl }}/resume)
-- [About Me]({{ site.baseurl }}/about)
-- [Certifications]({{ site.baseurl }}/certifications)
-- [GitHub](https://github.com/dantydcook)
+- [Résumé]({{ '/resume' | relative_url }})
+- [About Me]({{ '/about' | relative_url }})
+- [Certifications]({{ '/certifications' | relative_url }})
+- [GitHub](https://github.com/DantyDCook)
 - [LinkedIn](https://www.linkedin.com/in/dantydcook)
 
 ---
