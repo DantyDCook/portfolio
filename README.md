@@ -28,7 +28,7 @@ Certifications:
 
 ## Contact
 
-- [LinkedIn](https://www.linkedin.com/in/danty-cook-367ba31b)
+- [LinkedIn](https://www.linkedin.com/in/dantydcook)
 - Email: DantyDCook@gmail.com
 
 ---
