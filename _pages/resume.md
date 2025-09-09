@@ -48,8 +48,8 @@ Western Governors University (in progress)
 ## Contact
 
 - Email: [DantyDCook@gmail.com](mailto:DantyDCook@gmail.com)  
-- LinkedIn: [https://www.linkedin.com/in/danty-cook-367ba31b](https://www.linkedin.com/in/danty-cook-367ba31b)  
-- GitHub: [https://github.com/Caprikey](https://github.com/Caprikey)
+- LinkedIn: [https://www.linkedin.com/in/dantydcook](https://www.linkedin.com/in/dantydcook)  
+- GitHub: [https://github.com/Caprikey](https://github.com/dantydcook)
 
 ---
 
