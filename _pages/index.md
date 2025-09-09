@@ -84,8 +84,8 @@ I am a versatile **Data Analyst** and emerging **Data Engineer** based in Tennes
 - [Résumé]({{ site.baseurl }}/resume)
 - [About Me]({{ site.baseurl }}/about)
 - [Certifications]({{ site.baseurl }}/certifications)
-- [GitHub](https://github.com/Caprikey)
-- [LinkedIn](https://www.linkedin.com/in/danty-cook-367ba31b)
+- [GitHub](https://github.com/dantydcook)
+- [LinkedIn](https://www.linkedin.com/in/dantydcook)
 
 ---
 
