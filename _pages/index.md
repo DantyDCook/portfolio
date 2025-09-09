@@ -23,12 +23,12 @@ I am a versatile **Data Analyst** and emerging **Data Engineer** based in Tennes
 
 ## 💼 Featured Projects
 
-- [🛠️ UFO-CDC Project →](/projects/ufo-cdc/)
-- [SQL Data Exploration Project](/projects/sql-project/)
-- [ML Clustering & Segmentation Project](/projects/ml-clustering/)
-- [ML Supervised Learning Project](/projects/ml-supervised/)
-- [R Data Analysis Project](/projects/r-project/)
-- [More Projects Coming Soon!](/projects)
+- [🛠️ UFO-CDC Project →]({{ '/projects/ufo-cdc/' | relative_url }})
+- [SQL Data Exploration Project]({{ '/projects/sql-project/' | relative_url }})
+- [ML Clustering & Segmentation Project]({{ '/projects/ml-clustering/' | relative_url }})
+- [ML Supervised Learning Project]({{ '/projects/ml-supervised/' | relative_url }})
+- [R Data Analysis Project]({{ '/projects/r-project/' | relative_url }})
+- [More Projects Coming Soon!]({{ '/projects/' | relative_url }})
 
 ---
 
