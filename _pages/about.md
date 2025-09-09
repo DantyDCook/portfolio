@@ -69,8 +69,8 @@ Currently completing my **B.S. in Data Analytics** at Western Governors Universi
 
 - [View My Résumé](/resume)  
 - [Certifications & Badges](/certifications)  
-- [GitHub](https://github.com/Caprikey)  
-- [LinkedIn](https://www.linkedin.com/in/danty-cook-367ba31b)  
+- [GitHub](https://github.com/dantydcook)  
+- [LinkedIn](https://www.linkedin.com/in/dantydcook)  
 
 ---
 
