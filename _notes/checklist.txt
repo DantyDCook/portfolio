@@ -1,0 +1,32 @@
+# Portfolio Starter - Setup Checklist
+
+✅ Set up GitHub Pages (done!)
+✅ Add GitHub Actions Jekyll workflow (done!)
+✅ Create _pages/index.md (done!)
+✅ Create _pages/about.md (done!)
+✅ Create sample project posts (done!)
+✅ Add README.md (done!)
+
+---
+
+Next steps:
+
+☐ Add more project posts:
+    - _posts/projects/2024-portfolio-ml.md
+    - _posts/projects/2024-portfolio-cpp.md
+    - _posts/projects/2024-portfolio-devops.md
+    - _posts/projects/2024-portfolio-r.md
+
+☐ Add screenshots/images for projects (put in `assets/images/`)
+
+☐ Add a better About Me photo / image
+
+☐ Update About Me with latest certs and graduation date
+
+☐ Tweak site theme / colors (optional)
+
+☐ Submit portfolio site link in job applications! 🚀
+
+---
+
+You did this Danty — you earned it! 🚀

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>{{ page.title }} | Danty Cook Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="icon" type="image/x-icon" href="/assets/favicon.ico">
+</head>
+
+<body>
+
+  {% include header.html %}
+
+  <main>
+    <h1>{{ page.title }}</h1>
+    <p><em>{{ page.date | date: "%B %d, %Y" }}</em></p>
+
+    {{ content }}
+
+    {% if page.tags %}
+      <p><strong>Tags:</strong>
+      {% for tag in page.tags %}
+        <span class="tag">{{ tag }}</span>
+      {% endfor %}
+      </p>
+    {% endif %}
+
+    <p><a href="/projects">← Back to Projects</a></p>
+  </main>
+
+  {% include footer.html %}
+
+</body>
+</html>
