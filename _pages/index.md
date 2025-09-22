@@ -4,9 +4,13 @@ title: Home
 permalink: /
 ---
 
-# 👋 Welcome — Danty Cook Portfolio
+# Welcome!
 
-I am a versatile **Data Analyst** and emerging **Data Engineer** based in Tennessee — passionate about solving real-world problems through data and automation.
+I’m Danty Cook, an early-career data professional completing my B.S. in Data Analytics (Nov 2025) and pursuing a career in Data Engineering. My work centers on building reliable data systems—leveraging SQL, Python, and ETL/ELT pipelines for data cleaning, modeling, and validation.
+
+I’ve gained experience across data warehousing, cloud platforms, MLOps, and data governance, supported by industry credentials like CompTIA Data+, which validate my analytical expertise. Recognized for problem-solving, attention to detail, and collaborative leadership, I aim to contribute to the design, optimization, and scaling of enterprise data infrastructure.
+
+Feel free to explore my projects, where I bring together academic training and applied experience to transform raw data into meaningful insights.
 
 ---
 
