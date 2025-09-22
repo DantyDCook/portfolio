@@ -26,4 +26,4 @@ Created interpretable clusters and visualizations, showing strong applied ML and
 
 ## Links
 
-[View Full Project on GitHub](https://github.com/Caprikey/D499_Project_1_Supervised/tree/main/cd0025-supervised-learning-master/starter)
+[View Full Project on GitHub](https://github.com/dantydcook/D499_Project_1_Supervised/tree/main/cd0025-supervised-learning-master/starter)
