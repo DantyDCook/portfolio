@@ -19,7 +19,7 @@ collections:
     permalink: /projects/:name/
   essays:
     output: true
-    permalink: /projects/:name/
+    permalink: /essays/:name/
 
 # Plugins (works with Actions-based build)
 plugins:
