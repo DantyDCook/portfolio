@@ -6,7 +6,7 @@ date: 2025-06-24
 tags: [data-analysis, python, pandas, visualization]
 categories: [portfolio, data-analytics]
 image: /assets/images/ufo-cdc.png
-github: https://github.com/Caprikey/WGU-C687-JYM1
+github: https://github.com/dantydcook/WGU-C687-JYM1
 ---
 
 ## Overview
