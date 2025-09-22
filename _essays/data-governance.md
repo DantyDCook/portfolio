@@ -24,4 +24,3 @@ This report analyzes the data and information governance maturity of a small reg
 
 [📄 Download Original Report (PDF)](/assets/docs/Data-And-Information-Governance-Report-DCook.pdf)
 
-[← Back to Home](/)
