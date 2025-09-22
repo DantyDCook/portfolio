@@ -26,4 +26,4 @@ Created interpretable clusters and visualizations, showing strong applied ML and
 
 ## Links
 
-[View Full Project on GitHub](https://github.com/Caprikey/WGU_D499_P2_DCook)
+[View Full Project on GitHub](https://github.com/dantydcook/WGU_D499_P2_DCook)
