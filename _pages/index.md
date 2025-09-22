@@ -16,16 +16,16 @@ Feel free to explore my projects, where I bring together academic training and a
 
 ## Professional Focus
 
-✅ Data Engineering & Analytics – Building reliable data pipelines, cleaning, transforming, and modeling data for insights
-✅ Visualization & Storytelling – Creating dashboards and reports that translate complex data into clear decisions
-✅ Machine Learning Foundations – Applying modeling techniques and feature engineering to real-world datasets
-✅ ETL & API Integration – Designing extract–transform–load workflows and connecting external data sources
-✅ Automation & MLOps – Streamlining processes with Python, DevOps practices, and experiment tracking
-✅ Process Improvement – Optimizing data quality, governance, and business workflows for scalabilit
+**Data Engineering & Analytics** – Building reliable data pipelines and transforming data into insights  
+**Visualization & Storytelling** – Creating dashboards and reports that drive decisions  
+**Machine Learning Foundations** – Applying models and feature engineering to real-world datasets  
+**ETL & API Integration** – Designing workflows to connect and process diverse data sources  
+**Automation & MLOps** – Streamlining processes with DevOps practices and experiment tracking  
+**Process Improvement & Governance** – Enhancing data quality, governance, and scalability
 
 ---
 
-## 💼 Featured Projects
+## Featured Projects
 
 - [UFO-CDC Project →]({{ '/projects/ufo-cdc/' | relative_url }})
 - [SQL Data Exploration Project]({{ '/projects/sql-project/' | relative_url }})
@@ -45,38 +45,31 @@ Feel free to explore my projects, where I bring together academic training and a
 
 ## Technical Skills
 
-Programming & Scripting
-✅ Python (Pandas, scikit-learn, NumPy, BeautifulSoup)
-✅ R
-✅ C++
+**Programming & Scripting**  
+Python (Pandas, scikit-learn, NumPy, BeautifulSoup), R, C++  
 
-Databases & Querying
-✅ SQL (Postgres, MySQL, SQLite, T-SQL)
+**Databases & Querying**  
+SQL (Postgres, MySQL, SQLite, T-SQL)  
 
-Data Visualization
-✅ Power BI
-✅ Tableau
+**Data Visualization**  
+Power BI, Tableau  
 
-Version Control & DevOps
-✅ Git & GitHub
-✅ GitHub Actions (CI/CD)
-✅ Docker
+**Version Control & DevOps**  
+Git & GitHub, GitHub Actions (CI/CD), Docker  
 
-Data Engineering Tools
-✅ ETL/ELT Pipeline Development
-✅ Kafka (in progress/learning)
-✅ DevOps for Data Pipelines
+**Data Engineering Tools**  
+ETL/ELT Pipelines, Kafka (learning), DevOps for Data Pipelines
 
 ---
 
 ## Certifications
 
-✅ CompTIA A+  
-✅ CompTIA Network+  
-✅ CompTIA Project+  
-✅ CompTIA Data+  
-✅ CompTIA IT Operations Specialist
-✅ ITIL v4  
+- CompTIA A+  
+- CompTIA Network+  
+- CompTIA Project+  
+- CompTIA Data+  
+- CompTIA IT Operations Specialist (CIOS)  
+- ITIL v4  
 
 [See Full Certifications →](/certifications)
 
@@ -84,8 +77,8 @@ Data Engineering Tools
 
 ## Education
 
-✅ B.S. Data Analytics (WGU - In Progress)
-✅ A.A.B.A Information Systems (AIU)
+- B.S. Data Analytics (WGU - In Progress)
+- A.A.B.A Information Systems (AIU)
 
 ---
 
@@ -94,13 +87,13 @@ Data Engineering Tools
 ---
 -->
 
-## 🏷️ Explore by Tags
+## Explore by Tags
 
 [Explore Tags →](/tags)
 
 ---
 
-## 📄 Learn More
+## Learn More
 
 - [Résumé]({{ '/resume' | relative_url }})
 - [About Me]({{ '/about' | relative_url }})
@@ -110,7 +103,7 @@ Data Engineering Tools
 
 ---
 
-## 🤝 Let’s Connect
+## Let’s Connect
 
 I’m always open to opportunities and collaboration — feel free to [reach out](mailto:DantyDCook+hireme@gmail.com)! 🚀
 
