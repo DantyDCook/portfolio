@@ -69,9 +69,10 @@ I am a versatile **Data Analyst** and emerging **Data Engineer** based in Tennes
 
 ---
 
-{% include recent-projects.html %}
-
+<!-- {% include recent-projects.html %} -->
+<!--
 ---
+-->
 
 ## 🏷️ Explore by Tags
 
