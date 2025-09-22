@@ -6,7 +6,7 @@ date: 2025-06-24
 tags: [r, data-analysis, visualization]
 categories: [portfolio, r]
 image: /assets/images/r-project.png
-github: https://github.com/Caprikey/WGU_D497_Project_1
+github: https://github.com/dantydcook/WGU_D497_Project_1
 ---
 
 ## Overview
