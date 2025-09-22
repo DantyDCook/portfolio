@@ -132,11 +132,7 @@ Built an unsupervised ML pipeline with PCA + KMeans to uncover distinct customer
 - GitHub: [github.com/dantydcook](https://github.com/dantydcook)  
 
 ---
-<!-- 
-**(Optional — You can also link a PDF Résumé download here if you want.)**
 
-Example:
+[Download Résumé (PDF)](/portfolio/assets/resume/Danty_Cook_Resume_DE.pdf)
 
-[Download Résumé (PDF)](/portfolio/assets/resume/DantyCook_Resume.pdf)
-
--->
+---
