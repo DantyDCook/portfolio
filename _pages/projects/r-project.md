@@ -26,4 +26,4 @@ Generated insights and visual reports — showing my ability to use R for analys
 
 ## Links
 
-[View Full Project on GitHub](https://github.com/Caprikey/WGU_D497_Project_1)
+[View Full Project on GitHub](https://github.com/dantydcook/WGU_D497_Project_1)
