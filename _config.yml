@@ -9,18 +9,38 @@ permalink: pretty
 markdown: kramdown
 theme: minima
 
+# Collections
 collections:
   pages:
     output: true
     permalink: /:path/
+  projects:
+    output: true
+    permalink: /projects/:name/
 
-include:
-  - _pages
-
+# Plugins (works with Actions-based build)
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-analytics
+
+# Defaults for collections
+defaults:
+  - scope:
+      path: "_projects"
+      type: "projects"
+    values:
+      layout: project
+  # (optional) defaults for _pages content
+  - scope:
+      path: "_pages"
+      type: "pages"
+    values:
+      layout: default
+
+# (Optional; not needed if using the 'pages' collection)
+# include:
+#   - _pages
 
 analytics:
   provider: google-gtag
