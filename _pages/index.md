@@ -14,20 +14,20 @@ Feel free to explore my projects, where I bring together academic training and a
 
 ---
 
-## 🎯 Professional Focus
+## Professional Focus
 
-✅ Data Analytics & Visualization  
-✅ Machine Learning & Modeling  
-✅ Data Engineering Pipelines  
-✅ ETL & API Integration  
-✅ Automation & DevOps  
-✅ Business Process Optimization
+✅ Data Engineering & Analytics – Building reliable data pipelines, cleaning, transforming, and modeling data for insights
+✅ Visualization & Storytelling – Creating dashboards and reports that translate complex data into clear decisions
+✅ Machine Learning Foundations – Applying modeling techniques and feature engineering to real-world datasets
+✅ ETL & API Integration – Designing extract–transform–load workflows and connecting external data sources
+✅ Automation & MLOps – Streamlining processes with Python, DevOps practices, and experiment tracking
+✅ Process Improvement – Optimizing data quality, governance, and business workflows for scalabilit
 
 ---
 
 ## 💼 Featured Projects
 
-- [🛠️ UFO-CDC Project →]({{ '/projects/ufo-cdc/' | relative_url }})
+- [UFO-CDC Project →]({{ '/projects/ufo-cdc/' | relative_url }})
 - [SQL Data Exploration Project]({{ '/projects/sql-project/' | relative_url }})
 - [ML Clustering & Segmentation Project]({{ '/projects/ml-clustering/' | relative_url }})
 - [ML Supervised Learning Project]({{ '/projects/ml-supervised/' | relative_url }})
@@ -38,38 +38,54 @@ Feel free to explore my projects, where I bring together academic training and a
 
 # Featured Essays
 
-[📄 Data and Information Governance — Summary & Full Report →]({{ '/essays/data-governance/' | relative_url }})
+[Data and Information Governance — Summary & Full Report →]({{ '/essays/data-governance/' | relative_url }})
 
 
 --- 
 
-## 🛠️ Skills
+## Technical Skills
 
-✅ Python (Pandas, scikit-learn, Numpy, BeautifulSoup)  
-✅ SQL (Postgres, MySQL, SQLite, T-SQL)  
-✅ R  
-✅ C++  
-✅ Power BI, Tableau  
-✅ Git & GitHub  
-✅ Docker  
-✅ GitHub Actions (CI/CD)  
-✅ Kafka (learning)  
+Programming & Scripting
+✅ Python (Pandas, scikit-learn, NumPy, BeautifulSoup)
+✅ R
+✅ C++
+
+Databases & Querying
+✅ SQL (Postgres, MySQL, SQLite, T-SQL)
+
+Data Visualization
+✅ Power BI
+✅ Tableau
+
+Version Control & DevOps
+✅ Git & GitHub
+✅ GitHub Actions (CI/CD)
+✅ Docker
+
+Data Engineering Tools
+✅ ETL/ELT Pipeline Development
+✅ Kafka (in progress/learning)
 ✅ DevOps for Data Pipelines
 
 ---
 
-## 🏅 Certifications
+## Certifications
 
 ✅ CompTIA A+  
 ✅ CompTIA Network+  
 ✅ CompTIA Project+  
 ✅ CompTIA Data+  
 ✅ CompTIA IT Operations Specialist
-✅ ITILv4  
-✅ B.S. Data Analytics (WGU - In Progress)
-✅ A.A.B.A Information Systems (AIU)
+✅ ITIL v4  
 
 [See Full Certifications →](/certifications)
+
+---
+
+## Education
+
+✅ B.S. Data Analytics (WGU - In Progress)
+✅ A.A.B.A Information Systems (AIU)
 
 ---
 
@@ -96,6 +112,6 @@ Feel free to explore my projects, where I bring together academic training and a
 
 ## 🤝 Let’s Connect
 
-I’m always open to opportunities and collaboration — feel free to [reach out](mailto:DantyDCook@gmail.com)! 🚀
+I’m always open to opportunities and collaboration — feel free to [reach out](mailto:DantyDCook+hireme@gmail.com)! 🚀
 
 ---
