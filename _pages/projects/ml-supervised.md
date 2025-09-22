@@ -6,7 +6,7 @@ date: 2025-06-24
 tags: [machine-learning, hypertuning, model-training, python, supervised, sklearn]
 categories: [portfolio, machine-learning]
 image: /assets/images/ml-supervised.png
-github: https://github.com/Caprikey/D499_Project_1_Supervised/tree/main/cd0025-supervised-learning-master/starter
+github: https://github.com/dantydcook/D499_Project_1_Supervised/tree/main/cd0025-supervised-learning-master/starter
 ---
 
 ## Overview
