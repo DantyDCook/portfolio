@@ -8,6 +8,7 @@ github: https://github.com/dantydcook/D498
 description: "Explored datasets with SQL queries, performing aggregations, joins, and schema design for analysis."
 # layout: project   # optional if defaults set in _config.yml
 # permalink: /projects/sql-project/  # optional; handled by collection
+published: true
 ---
 
 

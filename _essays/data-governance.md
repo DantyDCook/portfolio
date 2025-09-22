@@ -7,6 +7,7 @@ description: "An essay analyzing governance and privacy challenges in the bankin
 image: /assets/images/essays/data-governance.png
 layout: essay      # optional if you set defaults for essays in _config.yml
 # permalink: /essays/data-governance/   # optional; handled by collection
+published: true
 ---
 
 

@@ -8,6 +8,7 @@ github: https://github.com/dantydcook/WGU_D499_P2_DCook
 description: "PCA + KMeans/DBSCAN to segment customers; clear visualizations and insights."
 # layout: project   # optional if defaults set in _config.yml
 # permalink: /projects/ml-clustering/  # optional; collection already sets this
+published: true
 ---
 
 ## Overview

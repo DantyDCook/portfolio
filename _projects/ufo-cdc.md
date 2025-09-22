@@ -8,6 +8,7 @@ github: https://github.com/dantydcook/WGU-C687-JYM1
 description: "Analyzed correlations between UFO sighting trends and CDC birth rates using Python and Pandas."
 # layout: project   # optional if defaults set in _config.yml
 # permalink: /projects/ufo-cdc/  # optional; handled by collection
+published: true
 ---
 
 

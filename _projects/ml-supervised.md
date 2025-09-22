@@ -8,6 +8,7 @@ github: https://github.com/dantydcook/D499_Project_1_Supervised
 description: "Applied supervised learning models with hyperparameter tuning to evaluate predictive performance."
 # layout: project   # optional if defaults set in _config.yml
 # permalink: /projects/ml-supervised/  # optional; handled by collection
+published: true
 ---
 
 ## Overview

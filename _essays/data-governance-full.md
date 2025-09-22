@@ -7,6 +7,7 @@ description: "Extended essay covering governance, privacy, and compliance in the
 image: /assets/images/essays/data-governance-full.png
 layout: essay      # optional if defaults are set in _config.yml
 # permalink: /essays/data-governance-full/  # optional; handled by collection
+published: true
 ---
 
 

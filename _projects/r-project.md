@@ -8,6 +8,7 @@ github: https://github.com/dantydcook/WGU_D497_Project_1
 description: "Exploratory data analysis and visualization in R using tidyverse and ggplot2."
 # layout: project   # optional if defaults set in _config.yml
 # permalink: /projects/r-project/  # optional; handled by collection
+published: true
 ---
 
 ## Overview
