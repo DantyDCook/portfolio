@@ -12,9 +12,10 @@ Here is a selection of my Data Analytics, Data Engineering, Machine Learning, an
 
 ## Project List
 
-- [UFO Sightings & CDC Birth Analysis](/posts/projects/2024-portfolio-ufo.md)
-- [SQL Data Transformation & Analysis](/posts/projects/2024-portfolio-sql.md)
-- More coming soon!
+{% assign projects = site.projects | sort: "date" | reverse %}
+{% for p in projects %}
+- [{{ p.title }}]({{ p.url | relative_url }}) — {{ p.description | default: "" }}
+{% endfor %}
 
 ---
 
