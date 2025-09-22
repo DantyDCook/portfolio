@@ -1,13 +1,15 @@
 ---
-layout: project
 title: "SQL Data Exploration Project"
-permalink: /projects/sql-project/
 date: 2025-06-24
 tags: [sql, data-analysis, postgres, sqlite]
 categories: [portfolio, sql]
 image: /assets/images/sql-project.png
 github: https://github.com/dantydcook/D498
+description: "Explored datasets with SQL queries, performing aggregations, joins, and schema design for analysis."
+# layout: project   # optional if defaults set in _config.yml
+# permalink: /projects/sql-project/  # optional; handled by collection
 ---
+
 
 ## Overview
 

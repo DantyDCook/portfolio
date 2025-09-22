@@ -1,12 +1,13 @@
 ---
-layout: project
 title: "ML Supervised Learning Project"
-permalink: /projects/ml-supervised/
 date: 2025-06-24
-tags: [machine-learning, hypertuning, model-training, python, supervised, sklearn]
+tags: [machine-learning, hyperparameter-tuning, model-training, python, supervised, sklearn]
 categories: [portfolio, machine-learning]
 image: /assets/images/ml-supervised.png
-github: https://github.com/dantydcook/D499_Project_1_Supervised/tree/main/cd0025-supervised-learning-master/starter
+github: https://github.com/dantydcook/D499_Project_1_Supervised
+description: "Applied supervised learning models with hyperparameter tuning to evaluate predictive performance."
+# layout: project   # optional if defaults set in _config.yml
+# permalink: /projects/ml-supervised/  # optional; handled by collection
 ---
 
 ## Overview

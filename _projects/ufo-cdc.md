@@ -1,13 +1,15 @@
 ---
-layout: project
 title: "UFO Sightings vs CDC Birth Rates"
-permalink: /projects/ufo-cdc/
 date: 2025-06-24
 tags: [data-analysis, python, pandas, visualization]
 categories: [portfolio, data-analytics]
 image: /assets/images/ufo-cdc.png
 github: https://github.com/dantydcook/WGU-C687-JYM1
+description: "Analyzed correlations between UFO sighting trends and CDC birth rates using Python and Pandas."
+# layout: project   # optional if defaults set in _config.yml
+# permalink: /projects/ufo-cdc/  # optional; handled by collection
 ---
+
 
 ## Overview
 

@@ -17,6 +17,9 @@ collections:
   projects:
     output: true
     permalink: /projects/:name/
+  essays:
+    output: true
+    permalink: /projects/:name/
 
 # Plugins (works with Actions-based build)
 plugins:
@@ -31,6 +34,11 @@ defaults:
       type: "projects"
     values:
       layout: project
+  - scope:
+      path: "_essays"
+      type: "essays"
+    values:
+      layout: essays
   # (optional) defaults for _pages content
   - scope:
       path: "_pages"

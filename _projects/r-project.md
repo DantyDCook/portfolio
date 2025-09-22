@@ -1,12 +1,13 @@
 ---
-layout: project
 title: "R Data Analysis Project"
-permalink: /projects/r-project/
 date: 2025-06-24
 tags: [r, data-analysis, visualization]
 categories: [portfolio, r]
 image: /assets/images/r-project.png
 github: https://github.com/dantydcook/WGU_D497_Project_1
+description: "Exploratory data analysis and visualization in R using tidyverse and ggplot2."
+# layout: project   # optional if defaults set in _config.yml
+# permalink: /projects/r-project/  # optional; handled by collection
 ---
 
 ## Overview

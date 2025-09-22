@@ -1,12 +1,13 @@
 ---
-layout: project
 title: "ML Clustering & Segmentation Project"
-permalink: /projects/ml-clustering/
 date: 2025-06-24
 tags: [machine-learning, clustering, pca, sklearn]
 categories: [portfolio, machine-learning]
 image: /assets/images/ml-clustering.png
 github: https://github.com/dantydcook/WGU_D499_P2_DCook
+description: "PCA + KMeans/DBSCAN to segment customers; clear visualizations and insights."
+# layout: project   # optional if defaults set in _config.yml
+# permalink: /projects/ml-clustering/  # optional; collection already sets this
 ---
 
 ## Overview
