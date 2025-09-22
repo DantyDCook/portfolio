@@ -14,3 +14,4 @@ A collection of my essays on data, technology, and business.
 {% for e in essays %}
 - [{{ e.title }}]({{ e.url | relative_url }}) — {{ e.description | default: "" }}
 {% endfor %}
+
