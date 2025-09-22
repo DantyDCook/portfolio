@@ -6,7 +6,7 @@ date: 2025-06-24
 tags: [sql, data-analysis, postgres, sqlite]
 categories: [portfolio, sql]
 image: /assets/images/sql-project.png
-github: https://github.com/Caprikey/D498
+github: https://github.com/dantydcook/D498
 ---
 
 ## Overview
