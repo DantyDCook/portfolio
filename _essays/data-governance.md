@@ -27,4 +27,4 @@ This report analyzes the data and information governance maturity of a small reg
 
 [← Back to Essays Overview]({{ "/essays/" | relative_url }})
 
-[← Back to Home](/)
+[← Back to Home]({{ "/" | relative_url }})
