@@ -26,4 +26,4 @@ Generated multiple reports and dashboards, showing strong SQL development skills
 
 ## Links
 
-[View Full Project on GitHub](https://github.com/Caprikey/D498)
+[View Full Project on GitHub](https://github.com/dantydcook/D498)
