@@ -12,7 +12,7 @@ Here is a selection of my Data Analytics, Data Engineering, Machine Learning, an
 
 ## Project List
 
-{% assign projects = site.projects | sort: "date" | reverse %}
+{% assign projects = site.projects | where_exp: "p", "p.published != false" | sort: "date" | reverse %}
 {% for p in projects %}
 - [{{ p.title }}]({{ p.url | relative_url }}) — {{ p.description | default: "" }}
 {% endfor %}
