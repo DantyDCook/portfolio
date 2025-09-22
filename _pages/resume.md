@@ -49,13 +49,14 @@ Western Governors University (in progress)
 
 - Email: [DantyDCook@gmail.com](mailto:DantyDCook@gmail.com)  
 - LinkedIn: [https://www.linkedin.com/in/dantydcook](https://www.linkedin.com/in/dantydcook)  
-- GitHub: [https://github.com/Caprikey](https://github.com/dantydcook)
+- GitHub: [https://github.com/dantydcook](https://github.com/dantydcook)
 
 ---
-
+<!-- 
 **(Optional — You can also link a PDF Résumé download here if you want.)**
 
 Example:
 
-```markdown
-[Download Résumé (PDF)](/assets/resume/DantyCook_Resume.pdf)
+[Download Résumé (PDF)](/portfolio/assets/resume/DantyCook_Resume.pdf)
+
+-->
