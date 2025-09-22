@@ -28,5 +28,5 @@ Found that although there are interesting local patterns, there is no statistica
 
 ## Links
 
-[View Full Project on GitHub](https://github.com/Caprikey/WGU-C687-JYM1)
+[View Full Project on GitHub](https://github.com/dantydcook/WGU-C687-JYM1)
 
