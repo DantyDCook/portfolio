@@ -133,6 +133,6 @@ Built an unsupervised ML pipeline with PCA + KMeans to uncover distinct customer
 
 ---
 
-[Download Résumé (PDF)](/portfolio/assets/resume/Danty_Cook_Resume_DE.pdf)
+[Download Résumé (PDF)](/portfolio/assets/docs/resumes/Danty_Cook_Resume_DE.pdf)
 
 ---
