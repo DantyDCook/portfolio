@@ -34,7 +34,7 @@ I am a versatile **Data Analyst** and emerging **Data Engineer** based in Tennes
 
 # Featured Essays
 
-[📄 Data and Information Governance — Summary & Full Report →](/essays/data-governance/)
+[📄 Data and Information Governance — Summary & Full Report →]({{ '/essays/data-governance/' | relative_url }})
 
 
 --- 
