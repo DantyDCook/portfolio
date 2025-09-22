@@ -5,7 +5,7 @@ tags: [data-governance, banking, data-privacy, essay]
 categories: [essays, full-report]
 description: "Extended essay covering governance, privacy, and compliance in the banking sector."
 image: /assets/images/essays/data-governance-full.png
-# layout: essay      # optional if defaults are set in _config.yml
+layout: essay      # optional if defaults are set in _config.yml
 # permalink: /essays/data-governance-full/  # optional; handled by collection
 ---
 
