@@ -6,7 +6,7 @@ date: 2025-06-24
 tags: [machine-learning, clustering, pca, sklearn]
 categories: [portfolio, machine-learning]
 image: /assets/images/ml-clustering.png
-github: https://github.com/Caprikey/WGU_D499_P2_DCook
+github: https://github.com/dantydcook/WGU_D499_P2_DCook
 ---
 
 ## Overview
