@@ -95,4 +95,6 @@ Data and information governance is critical for financial institutions. By adopt
 
 [📄 Download Original Report (PDF)](/assets/docs/Data-And-Information-Governance-Report-DCook.pdf)
 
-[← Back to Essays Overview](/essays/data-governance/)
+[← Back to Essay Overview]({{ "/essays/data-governance/" | relative_url }})
+
+[← Back to Essays]({{ "/essays/" | relative_url }})

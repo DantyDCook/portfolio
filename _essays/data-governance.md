@@ -21,8 +21,10 @@ This report analyzes the data and information governance maturity of a small reg
 
 ---
 
-[👉 Read Full Report →](/portfolio/essays/data-governance-full/)
+[👉 Read Full Report →]({{ "/essays/data-governance-full/" | relative_url }})
 
 [📄 Download Original Report (PDF)](/assets/docs/Data-And-Information-Governance-Report-DCook.pdf)
+
+[← Back to Essays Overview]({{ "/essays/" | relative_url }})
 
 [← Back to Home](/)
