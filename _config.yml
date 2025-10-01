@@ -7,6 +7,15 @@ description: Data Analytics & Data Engineering Projects
 url: "https://www.dantydcook.com"
 baseurl: ""
 
+# Optional socials (used conditionally)
+linkedin: "https://www.linkedin.com/in/your-profile-slug"
+github: "https://github.com/dantydcook"  
+email: "hireme@dantydcook.com"            
+
+# Optional social preview image (used if present)
+social_image: "/assets/images/social-card.png"
+
+
 permalink: pretty
 
 markdown: kramdown
