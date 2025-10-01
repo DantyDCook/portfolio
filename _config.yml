@@ -29,6 +29,7 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-analytics
+  - jekyll-sitemap
 
 # Defaults for collections
 defaults:
