@@ -1,27 +1,17 @@
 title: Danty Cook Portfolio
-description: Data Analytics & Data Engineering Projects
-
-#url: "https://dantydcook.github.io"
-#baseurl: "/portfolio"
+description: Evidence-backed data analytics, SQL, BI, and machine-learning projects for analyst and analytics engineering roles.
 
 url: "https://www.dantydcook.com"
 baseurl: ""
 
-# Optional socials (used conditionally)
-linkedin: "https://www.linkedin.com/in/your-profile-slug"
-github: "https://github.com/dantydcook"  
-email: "hireme@dantydcook.com"            
-
-# Optional social preview image (used if present)
-social_image: "/assets/images/social-card.png"
-
+linkedin: "https://www.linkedin.com/in/dantydcook"
+github: "https://github.com/DantyDCook"
+email: "hireme@dantydcook.com"
 
 permalink: pretty
-
 markdown: kramdown
 theme: minima
 
-# Collections
 collections:
   pages:
     output: true
@@ -33,14 +23,12 @@ collections:
     output: true
     permalink: /essays/:name/
 
-# Plugins (works with Actions-based build)
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-analytics
   - jekyll-sitemap
 
-# Defaults for collections
 defaults:
   - scope:
       path: "_projects"
@@ -51,19 +39,14 @@ defaults:
       path: "_essays"
       type: "essays"
     values:
-      layout: essays
-  # (optional) defaults for _pages content
+      layout: essay
   - scope:
       path: "_pages"
       type: "pages"
     values:
       layout: default
 
-# (Optional; not needed if using the 'pages' collection)
-# include:
-#   - _pages
-
 analytics:
   provider: google-gtag
   gtag:
-    tracking_id: G-51LKT0PS78
+    tracking_id: G-51LKT0PS78

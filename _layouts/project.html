@@ -2,18 +2,37 @@
 layout: default
 ---
 
-<h1>{{ page.title }}</h1>
+<article class="project-detail">
+  <header class="project-hero">
+    {% if page.course %}<p class="eyebrow">{{ page.course }}</p>{% endif %}
+    <h1>{{ page.title }}</h1>
+    {% if page.subtitle %}<p class="lede">{{ page.subtitle }}</p>{% elsif page.description %}<p class="lede">{{ page.description }}</p>{% endif %}
+    <div class="project-meta">
+      {% if page.category %}<span class="pill">{{ page.category }}</span>{% endif %}
+      {% if page.status %}<span class="pill">{{ page.status }}</span>{% endif %}
+      {% if page.role_targets %}{% for role in page.role_targets limit: 3 %}<span class="pill">{{ role }}</span>{% endfor %}{% endif %}
+    </div>
+    {% if page.image %}
+      <figure class="project-image"><img src="{{ page.image | relative_url }}" alt="{{ page.image_alt | default: page.title }}"></figure>
+    {% endif %}
+    {% if page.metrics %}
+      <div class="metric-grid" aria-label="Project metrics">
+        {% for metric in page.metrics %}<div class="metric"><strong>{{ metric.value }}</strong><span>{{ metric.label }}</span></div>{% endfor %}
+      </div>
+    {% endif %}
+  </header>
 
-{% if page.image %}
-  <img src="{{ page.image | relative_url }}" alt="{{ page.title }}" style="max-width:100%; height:auto;">
-{% endif %}
-
-{{ content }}
-
-{% if page.github %}
-<p><a href="{{ page.github }}" target="_blank">View on GitHub →</a></p>
-{% endif %}
-
-{% if page.demo %}
-<p><a href="{{ page.demo }}" target="_blank">View Live Demo →</a></p>
-{% endif %}
+  <div class="project-layout">
+    <div class="prose">{{ content }}</div>
+    <aside class="project-sidebar" aria-label="Project summary">
+      {% if page.technologies %}<h2>Technologies</h2><div class="tag-list">{% for tech in page.technologies %}<span class="tag">{{ tech }}</span>{% endfor %}</div>{% endif %}
+      {% if page.capabilities %}<h2>Capabilities</h2><ul>{% for item in page.capabilities %}<li>{{ item }}</li>{% endfor %}</ul>{% endif %}
+      <h2>Evidence</h2>
+      <ul>
+        {% if page.github %}<li><a href="{{ page.github }}" target="_blank" rel="noopener">Source repository</a></li>{% endif %}
+        {% if page.demo %}<li><a href="{{ page.demo }}" target="_blank" rel="noopener">Live demo</a></li>{% endif %}
+        {% if page.evidence_note %}<li>{{ page.evidence_note }}</li>{% endif %}
+      </ul>
+    </aside>
+  </div>
+</article>

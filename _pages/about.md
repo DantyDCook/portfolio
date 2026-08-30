@@ -1,85 +1,34 @@
 ---
 layout: default
-title: About Me
+title: About
+description: Professional background and data analytics direction for Danty Cook.
 permalink: /about/
 ---
 
-# 🔥 About Me — Danty Cook
+<header class="page-hero">
+  <p class="eyebrow">About</p>
+  <h1>Operational problem-solver moving deeper into data systems</h1>
+  <p class="lede">I bring a practical support and operations background to analytics work: careful documentation, troubleshooting, data hygiene, and a habit of making messy workflows easier to inspect.</p>
+</header>
 
-I am a versatile Data Analyst and emerging Data Engineer with a deep passion for turning raw data into actionable insights and building robust data systems.
+<section class="section">
+  <h2>Professional Direction</h2>
+  <p>I am focused on data analyst, reporting, SQL, analytics engineering, and junior data engineering roles. My strongest portfolio work combines data cleaning, PostgreSQL workflows, Python/R analysis, visual reporting, and model-evaluation discipline.</p>
+  <p>The redesigned portfolio intentionally separates evidence from aspiration. When work is academic, it is labeled. When a result is measured, the source artifact is recorded for follow-up review.</p>
+</section>
 
-With over 12 years of experience across technical support, data management, reporting, and IT operations — I bring a unique blend of **analytical thinking**, **problem-solving**, and **real-world business understanding** to every project I take on.
+<section class="section">
+  <h2>How I Work</h2>
+  <div class="grid">
+    <div class="card"><h3>Traceability</h3><p>I prefer claims that can point back to notebooks, SQL files, result summaries, plots, or repositories.</p></div>
+    <div class="card"><h3>Readable Systems</h3><p>I organize data work so another reviewer can understand inputs, transformations, outputs, and limitations.</p></div>
+    <div class="card"><h3>Business Context</h3><p>Technical work should connect to operational questions, decision support, and measurable tradeoffs.</p></div>
+  </div>
+</section>
 
-Currently completing my **B.S. in Data Analytics** at Western Governors University, I continue to sharpen my skills in **machine learning, cloud technologies, DevOps**, and **data engineering pipelines** — always striving to stay ahead of the curve.
-
----
-
-## 🎯 Professional Focus
-
-- Building reliable, automated data pipelines  
-- Designing clean, insightful dashboards and reports  
-- Applying machine learning to solve business problems  
-- Engineering scalable solutions for data transformation  
-- Bridging the gap between raw data and decision-makers  
-- Bringing clarity to chaos — even when data is messy
-
----
-
-## 🛠️ Skills
-
-### Languages & Tools
-
-✅ Python (Pandas, scikit-learn)  
-✅ R  
-✅ SQL (Postgres, MySQL, T-SQL, SQLite)  
-✅ C++  
-✅ Git & GitHub  
-✅ Docker  
-✅ GitHub Actions (CI/CD)  
-✅ Jupyter Notebooks
-
-### Data Engineering
-
-✅ ETL Pipelines (Python + SQL)  
-✅ Data Cleaning & Transformation  
-✅ Data Modeling  
-✅ API Data Extraction  
-✅ Real-time Streaming (Kafka — in progress)  
-✅ DevOps for Data Projects
-
-### Visualization
-
-✅ Power BI  
-✅ Tableau  
-✅ Matplotlib, Seaborn  
-✅ Dash / Streamlit (in progress)
-
-### Certifications
-
-✅ CompTIA A+  
-✅ CompTIA Network+  
-✅ CompTIA Project+  
-✅ CompTIA Data+  
-✅ ITILv4  
-✅ B.S. Data Analytics (WGU - In Progress)
-
----
-
-## 📄 Learn More
-
-- [View My Résumé](/resume)  
-- [Certifications & Badges](/certifications)  
-- [GitHub](https://github.com/dantydcook)  
-- [LinkedIn](https://www.linkedin.com/in/dantydcook)  
-
----
-
-## 🤝 Let’s Connect
-
-I’m always open to new opportunities, collaborations, and ways to learn and grow in the data space.
-
-**Feel free to reach out!** 🚀
-
----
-
-[Back to Home](/)
+<section class="section">
+  <h2>Contact Paths</h2>
+  <p>Email: <a href="mailto:hireme@dantydcook.com">hireme@dantydcook.com</a></p>
+  <p>LinkedIn: <a href="https://www.linkedin.com/in/dantydcook" target="_blank" rel="noopener">linkedin.com/in/dantydcook</a></p>
+  <p>GitHub: <a href="https://github.com/DantyDCook" target="_blank" rel="noopener">github.com/DantyDCook</a></p>
+</section>

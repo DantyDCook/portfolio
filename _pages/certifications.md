@@ -1,33 +1,37 @@
 ---
 layout: default
 title: Certifications
+description: Certifications and education credentials supporting Danty Cook's data analytics portfolio.
 permalink: /certifications/
 ---
 
-# 🏅 Certifications — Danty Cook
+<header class="page-hero">
+  <p class="eyebrow">Credentials</p>
+  <h1>Certifications and education</h1>
+  <p class="lede">This page supports the portfolio evidence with validated IT, data, project, and service-management credentials.</p>
+</header>
 
-## Current Certifications
+<section class="section">
+  <h2>Current Certifications</h2>
+  <ul class="clean-list">
+    <li>CompTIA Data+</li>
+    <li>CompTIA A+</li>
+    <li>CompTIA Network+</li>
+    <li>CompTIA Project+</li>
+    <li>CompTIA IT Operations Specialist (CIOS)</li>
+    <li>ITIL v4 Foundations</li>
+  </ul>
+</section>
 
-✅ CompTIA A+  
-✅ CompTIA Network+  
-✅ CompTIA Project+  
-✅ CompTIA Data+  
-✅ ITILv4 Foundations  
-✅ CompTIA IT Operations Specialist (CIOS)
+<section class="section">
+  <h2>Education</h2>
+  <ul class="clean-list">
+    <li>B.S. Data Analytics, Western Governors University</li>
+    <li>A.A. Business Administration / Information Systems, American InterContinental University</li>
+  </ul>
+</section>
 
----
-
-## Certifications In Progress / Upcoming
-
-✅ B.S. Data Analytics — Western Governors University (In Progress — Completion 2025)  
-✅ DevOps & Cloud certifications (Planned 2025)
-
----
-
-## Badge Links
-
-(If you have any badge links or images, you can list them here — example:)
-
-```markdown
-- [CompTIA Certification Verification Link](#)
-- [Credly Badge: Data+](#)
+<section class="section">
+  <h2>Next Review</h2>
+  <p>Badge verification links should be added in a later pass if public credential URLs are available.</p>
+</section>

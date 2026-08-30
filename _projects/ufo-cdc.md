@@ -1,35 +1,65 @@
 ---
-title: "UFO Sightings vs CDC Birth Rates"
-date: 2025-06-24
-tags: [data-analysis, python, pandas, visualization]
-categories: [portfolio, data-analytics]
-image: /assets/images/ufo-cdc.png
+title: "UFO Sightings & CDC Birth Rate Data Wrangling"
+subtitle: "A Python/Pandas workflow joining cleaned UFO sighting records with CDC natality data for exploratory analysis."
+course: "WGU D497"
+featured: true
+priority: 3
+category: "Data Wrangling / Analytics"
+role_targets: ["Data Analyst", "BI / Reporting Analyst", "Analytics Engineer"]
+technologies: ["Python", "Pandas", "Jupyter", "Matplotlib", "Seaborn", "CSV"]
+capabilities: ["Data cleaning", "Dataset joining", "Exploratory analysis", "Visualization", "Reproducible notebooks"]
 github: https://github.com/dantydcook/WGU-C687-JYM1
-description: "Analyzed correlations between UFO sighting trends and CDC birth rates using Python and Pandas."
-# layout: project   # optional if defaults set in _config.yml
-# permalink: /projects/ufo-cdc/  # optional; handled by collection
+image: /assets/images/projects/ufo-cdc-correlation.png
+image_alt: "Scatter plot visual output from the UFO sightings and CDC birth rate project."
+status: "Academic project / GitHub and local evidence"
+evidence_note: "Evidence reviewed from preserved WGU coursework materials."
+metrics:
+  - label: "cleaned UFO sighting rows"
+    value: "128,175"
+  - label: "cleaned CDC birth-rate rows"
+    value: "187,620"
+  - label: "generated result plots reviewed"
+    value: "6"
 published: true
 ---
 
+## Project Overview
 
-## Overview
+This project cleans and analyzes UFO sighting records alongside CDC birth-rate data. It is strongest as evidence of data acquisition, cleaning, structured notebooks, joining, and visualization rather than as evidence of a confirmed causal relationship.
 
-This project analyzes the relationship between UFO sightings in the United States and CDC birth rates, using data wrangling, visualization, and statistical correlation techniques.
+## Problem
 
-I combined open UFO sighting records with CDC birth data and performed exploratory data analysis, trend visualization, and initial hypothesis testing.
+The analytical question was whether sighting patterns and birth-rate records show meaningful temporal or regional relationships. The portfolio wording keeps the result cautious: exploratory patterns were reviewed, but no statistically significant national relationship is claimed here.
 
-## Tools Used
+## Data / Inputs
 
-- Python (Pandas, Matplotlib, Seaborn)
-- Jupyter Notebooks
-- Data Wrangling & Cleaning
-- Visualization
+Local cleaned data includes 128,175 UFO sighting rows and 187,620 CDC birth-rate rows. The project also includes FIPS lookup data, notebooks for extraction/cleaning/loading/transformation, and generated visual outputs.
 
-## Outcome
+## Architecture / Workflow
 
-Found that although there are interesting local patterns, there is no statistically significant national correlation between UFO reports and birth rates. The project showcases my data acquisition, wrangling, and visualization skills.
+```text
+UFO, CDC, and FIPS source data
+    -> extraction notebooks
+    -> cleaning notebooks
+    -> lookup and transformation notebooks
+    -> merged analytical combinations
+    -> correlation and time-series plots
+```
 
-## Links
+## Technical Implementation
 
-[View Full Project on GitHub](https://github.com/dantydcook/WGU-C687-JYM1)
+The local project contains helper modules, setup scripts, cleaned data directories, notebook stages, and result artifacts. The workflow separates extraction, cleaning, loading, transformation, and analysis rather than putting the full project into a single one-off notebook.
 
+## Results
+
+The current page publishes verified dataset and artifact counts from local files. Statistical conclusions should remain cautious until the missing discovery evidence or a CareerOps review confirms exact language for correlation results.
+
+## Key Capabilities Demonstrated
+
+- Cleaning and joining multi-source public datasets.
+- Creating reproducible notebook stages and local helper modules.
+- Producing exploratory plots that communicate trends and limitations.
+
+## Repository
+
+The current portfolio links this project to the GitHub repository listed in the prior site content. A future pass should reconcile the GitHub repository name against the missing discovery files.
