@@ -24,9 +24,11 @@ description: Evidence-backed data analytics, SQL, BI, and machine-learning proje
 <section class="section">
   <h2>Supporting Library</h2>
   <div class="project-grid">
-    {% assign supporting_projects = site.projects | where_exp: "p", "p.published != false and p.featured != true" | sort: "priority" %}
+    {% assign supporting_projects = site.projects | where_exp: "p", "p.published != false" | sort: "priority" %}
     {% for p in supporting_projects %}
-      {% include project-card.html project=p %}
+      {% unless p.featured == true %}
+        {% include project-card.html project=p %}
+      {% endunless %}
     {% endfor %}
   </div>
 </section>
