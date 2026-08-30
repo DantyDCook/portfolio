@@ -1,0 +1,21 @@
+<article class="project-card">
+  <a class="project-card-media" href="{{ include.project.url | relative_url }}" aria-label="View {{ include.project.title }}">
+    {% if include.project.image %}
+      <img src="{{ include.project.image | relative_url }}" alt="{{ include.project.image_alt | default: include.project.title }}">
+    {% else %}
+      <span class="project-card-fallback">{{ include.project.category | default: "Project" }}</span>
+    {% endif %}
+  </a>
+  <div class="project-card-body">
+    {% if include.project.course %}<p class="eyebrow">{{ include.project.course }}</p>{% endif %}
+    <h3><a href="{{ include.project.url | relative_url }}">{{ include.project.title }}</a></h3>
+    <p class="summary">{{ include.project.description | default: include.project.subtitle }}</p>
+    <div class="tag-list">{% for tech in include.project.technologies limit: 4 %}<span class="tag">{{ tech }}</span>{% endfor %}</div>
+    {% assign first_metric = include.project.metrics | first %}
+    {% if first_metric %}<p class="small"><strong>{{ first_metric.value }}</strong> {{ first_metric.label }}</p>{% endif %}
+    <div class="project-card-actions">
+      <a href="{{ include.project.url | relative_url }}">Case study</a>
+      {% if include.project.github %}<a href="{{ include.project.github }}" target="_blank" rel="noopener">Repository</a>{% endif %}
+    </div>
+  </div>
+</article>

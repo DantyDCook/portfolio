@@ -2,43 +2,36 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>{{ page.title }} | Danty Cook Portfolio</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 
-  <!-- Favicon block -->
-  <link rel="icon" type="image/png" href="{{ '/assets/favicon/favicon-96x96.png' | relative_url }}" sizes="96x96" />
-  <link rel="icon" type="image/svg+xml" href="{{ '/assets/favicon/favicon.svg' | relative_url }}" />
-  <link rel="shortcut icon" href="{{ '/assets/favicon/favicon.ico' | relative_url }}" />
-  <link rel="apple-touch-icon" sizes="180x180" href="{{ '/assets/favicon/apple-touch-icon.png' | relative_url }}" />
-  <link rel="manifest" href="{{ '/assets/favicon/site.webmanifest' | relative_url }}" />
+  <link rel="icon" type="image/png" href="{{ '/assets/favicon/favicon-96x96.png' | relative_url }}" sizes="96x96">
+  <link rel="icon" type="image/svg+xml" href="{{ '/assets/favicon/favicon.svg' | relative_url }}">
+  <link rel="shortcut icon" href="{{ '/assets/favicon/favicon.ico' | relative_url }}">
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ '/assets/favicon/apple-touch-icon.png' | relative_url }}">
+  <link rel="manifest" href="{{ '/assets/favicon/site.webmanifest' | relative_url }}">
 
   {% seo %}
 
-<!-- Analytics -->
-{% if site.analytics and site.analytics.provider == "google-gtag" %}
-  <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.analytics.gtag.tracking_id }}"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', '{{ site.analytics.gtag.tracking_id }}');
-  </script>
-{% endif %}
-
-
+  {% if site.analytics and site.analytics.provider == "google-gtag" %}
+    <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.analytics.gtag.tracking_id }}"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', '{{ site.analytics.gtag.tracking_id }}');
+    </script>
+  {% endif %}
 </head>
-
 <body>
-
+  <a class="skip-link" href="#main-content">Skip to content</a>
   {% include header.html %}
 
-  <main>
+  <main id="main-content" class="site-main">
     {{ content }}
   </main>
 
   {% include footer.html %}
-
 </body>
 </html>
