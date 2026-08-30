@@ -1,31 +1,57 @@
 ---
-title: "ML Supervised Learning Project"
-date: 2025-06-24
-tags: [machine-learning, hyperparameter-tuning, model-training, python, supervised, sklearn]
-categories: [portfolio, machine-learning]
-image: /assets/images/ml-supervised.png
-github: https://github.com/dantydcook/D499_Project_1_Supervised
-description: "Applied supervised learning models with hyperparameter tuning to evaluate predictive performance."
-# layout: project   # optional if defaults set in _config.yml
-# permalink: /projects/ml-supervised/  # optional; handled by collection
+title: "Income Classification Model Evaluation"
+subtitle: "A supervised-learning project using census features to evaluate predictive models for donor-targeting analysis."
+course: "WGU D499 Project 1"
+featured: true
+priority: 5
+category: "Machine Learning / Analytics"
+role_targets: ["Data Analyst", "AI / ML Adjacent", "Analytics Engineer"]
+technologies: ["Python", "Pandas", "NumPy", "scikit-learn", "Matplotlib", "Jupyter"]
+capabilities: ["Classification", "Model evaluation", "Feature preprocessing", "Notebook analysis", "Performance comparison"]
+github: https://github.com/dantydcook/D499_Project_1_Supervised/tree/main/cd0025-supervised-learning-master/starter
+status: "Academic project / GitHub and local evidence"
+evidence_note: "Evidence reviewed from preserved WGU coursework materials."
+metrics:
+  - label: "census rows reviewed"
+    value: "45,222"
+  - label: "input features documented in README"
+    value: "13"
 published: true
 ---
 
-## Overview
+## Project Overview
 
-Performed dimensionality reduction (PCA) and clustering analysis for customer segmentation. Visualized clusters and explained patterns.
+This project evaluates supervised learning models against a modified census income dataset for a donor-targeting scenario. The previous page incorrectly described clustering; this version corrects the project identity and keeps the claims aligned to the available README and dataset evidence.
 
-## Tools Used
+## Problem
 
-- Python (Pandas, scikit-learn, Matplotlib, Seaborn)
-- Model Trainin and Hyper-parameter tuning
-- Classifiers and Regresion Models
-- Jupyter Notebooks
+The project asks which supervised model can best identify people likely to have income above a target threshold, using census demographic and employment features.
 
-## Outcome
+## Data / Inputs
 
-Created interpretable clusters and visualizations, showing strong applied ML and EDA skills.
+The local `census.csv` file contains 45,222 rows. The README documents 13 input features such as age, workclass, education, occupation, hours per week, and native country, plus the income target variable.
 
-## Links
+## Architecture / Workflow
 
-[View Full Project on GitHub](https://github.com/dantydcook/D499_Project_1_Supervised/tree/main/cd0025-supervised-learning-master/starter)
+```text
+Census dataset
+    -> feature and target review
+    -> preprocessing
+    -> supervised model training
+    -> metric comparison
+    -> selected model explanation
+```
+
+## Technical Implementation
+
+The project uses Python, NumPy, Pandas, matplotlib, scikit-learn, and Jupyter notebooks. The portfolio does not publish model performance values in this pass because the missing discovery files were not available to verify the final selected metrics.
+
+## Results
+
+Verified portfolio metrics are limited to dataset size and documented feature count. A later evidence pass should extract final model accuracy/F-score and selected-model rationale directly from the completed notebook before adding them here.
+
+## Key Capabilities Demonstrated
+
+- Supervised-learning framing and target-variable analysis.
+- Model evaluation discipline without overstating unverified performance.
+- Correction of a prior portfolio content mismatch.
