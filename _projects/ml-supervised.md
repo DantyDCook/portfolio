@@ -1,27 +1,27 @@
 ---
-title: "Income Classification Model Evaluation"
-subtitle: "A supervised-learning project using census features to evaluate predictive models for donor-targeting analysis."
+title: "Finding Donors for CharityML"
+subtitle: "An academic supervised-classification project comparing classifiers and tuning HistGradientBoosting on a Census-derived dataset."
 course: "WGU D499 Project 1"
 featured: true
 priority: 5
 category: "Machine Learning / Analytics"
 role_targets: ["Data Analyst", "AI / ML Adjacent", "Analytics Engineer"]
-technologies: ["Python", "Pandas", "NumPy", "scikit-learn", "Matplotlib", "Jupyter"]
-capabilities: ["Classification", "Model evaluation", "Feature preprocessing", "Notebook analysis", "Performance comparison"]
-github: https://github.com/dantydcook/D499_Project_1_Supervised/tree/main/cd0025-supervised-learning-master/starter
+technologies: ["Python", "Pandas", "NumPy", "scikit-learn", "GridSearchCV", "Jupyter"]
+capabilities: ["Classification", "Cross-validation", "Model evaluation", "Feature preprocessing", "Performance-versus-simplicity trade-offs"]
+github: https://github.com/DantyDCook/D499_Project_1_Supervised/tree/main/cd0025-supervised-learning-master/starter
 status: "Academic project / GitHub and local evidence"
 evidence_note: "Evidence reviewed from preserved WGU coursework materials."
 metrics:
-  - label: "census rows reviewed"
-    value: "45,222"
-  - label: "input features documented in README"
-    value: "13"
+  - label: "tuned HistGradientBoosting accuracy"
+    value: "87.1%"
+  - label: "F-beta (0.5)"
+    value: "0.752"
 published: true
 ---
 
 ## Project Overview
 
-This project evaluates supervised learning models against a modified census income dataset for a donor-targeting scenario. The previous page incorrectly described clustering; this version corrects the project identity and keeps the claims aligned to the available README and dataset evidence.
+This academic supervised-classification project evaluates candidate classifiers against a Census-derived dataset for a donor-targeting scenario. It compares models, tunes HistGradientBoosting with GridSearchCV, and evaluates accuracy and F-beta trade-offs.
 
 ## Problem
 
@@ -29,7 +29,7 @@ The project asks which supervised model can best identify people likely to have 
 
 ## Data / Inputs
 
-The local `census.csv` file contains 45,222 rows. The README documents 13 input features such as age, workclass, education, occupation, hours per week, and native country, plus the income target variable.
+The executed Census-derived artifact contains 45,222 rows. The project uses demographic and employment features to predict whether income exceeds the target threshold.
 
 ## Architecture / Workflow
 
@@ -37,21 +37,21 @@ The local `census.csv` file contains 45,222 rows. The README documents 13 input 
 Census dataset
     -> feature and target review
     -> preprocessing
-    -> supervised model training
-    -> metric comparison
-    -> selected model explanation
+    -> classifier comparison
+    -> GridSearchCV tuning
+    -> accuracy and F-beta evaluation
 ```
 
 ## Technical Implementation
 
-The project uses Python, NumPy, Pandas, matplotlib, scikit-learn, and Jupyter notebooks. The portfolio does not publish model performance values in this pass because the missing discovery files were not available to verify the final selected metrics.
+The project trains and evaluates Logistic Regression, Random Forest, Gradient Boosting, and HistGradientBoosting classifiers. The HistGradientBoosting tuning used five-fold cross-validation, 32 candidates, and 160 fits.
 
 ## Results
 
-Verified portfolio metrics are limited to dataset size and documented feature count. A later evidence pass should extract final model accuracy/F-score and selected-model rationale directly from the completed notebook before adding them here.
+The tuned HistGradientBoosting model achieved 87.1% accuracy and F-beta(0.5) of 0.752. A reduced five-feature model was also evaluated as a performance-versus-simplicity trade-off. These are academic-project evaluation results, not production outcomes or business impact.
 
 ## Key Capabilities Demonstrated
 
-- Supervised-learning framing and target-variable analysis.
-- Model evaluation discipline without overstating unverified performance.
-- Correction of a prior portfolio content mismatch.
+- Supervised classification and target-variable analysis.
+- Cross-validated model tuning and bounded performance evaluation.
+- Transparent performance-versus-simplicity trade-off analysis.
