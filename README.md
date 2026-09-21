@@ -1,6 +1,6 @@
 # Danty Cook - Project Portfolio
 
-This repository is part of my professional portfolio as a Data Analyst and Data Engineer.
+This repository is the legacy public build of my evidence-backed data analytics and engineering portfolio.
 
 View the github webpage form, here: [Github Page](https://www.dantydcook.com/)
 
@@ -20,13 +20,15 @@ I specialize in:
 Certifications:
 
 - CompTIA A+, Network+, Project+, Data+, ITILv4
-- WGU Bachelors in Data Analytics (in progress)
+- B.S. Data Analytics, Western Governors University
 
 ## Projects in this Repository
 
-- UFO Sightings & CDC Birth Analysis
-- SQL Data Transformation & Analysis
-- Other projects coming soon!
+- Industrial Pump Anomaly Detection
+- PostgreSQL Customer Rental Analytics & Recommendation Pipeline
+- D499 supervised and unsupervised machine-learning coursework
+- D498 multi-city bikeshare analysis in R
+- FastAPI ML pipeline and C++ roster-system coursework
 
 ## Contact
 
