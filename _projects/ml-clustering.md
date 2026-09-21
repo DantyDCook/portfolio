@@ -1,6 +1,6 @@
 ---
-title: "Customer Segmentation with PCA & KMeans"
-subtitle: "Unsupervised learning workflow comparing customer demographic clusters with a broader population dataset."
+title: "Identify Customer Segments"
+subtitle: "An academic unsupervised-segmentation project using demographic data, PCA, K-Means, representation analysis, and a refactored Python package."
 course: "WGU D499 Project 2"
 featured: true
 priority: 4
@@ -8,30 +8,30 @@ category: "Machine Learning / Analytics"
 role_targets: ["Data Analyst", "Analytics Engineer", "AI / ML Adjacent"]
 technologies: ["Python", "Pandas", "scikit-learn", "PCA", "KMeans", "Matplotlib", "Seaborn"]
 capabilities: ["Dimensionality reduction", "Clustering", "Feature preprocessing", "Customer segmentation", "Data visualization"]
-github: https://github.com/dantydcook/WGU_D499_P2_DCook
+github: https://github.com/DantyDCook/WGU_D499_P2_DCook
 status: "Academic project / GitHub and local evidence"
 evidence_note: "Evidence reviewed from preserved WGU coursework materials."
 metrics:
-  - label: "population records"
-    value: "891,221"
-  - label: "customer records"
-    value: "191,652"
-  - label: "documented features"
-    value: "85"
+  - label: "PCA components retained"
+    value: "144"
+  - label: "variance explained"
+    value: "90.08%"
+  - label: "selected K-Means clusters"
+    value: "8"
 published: true
 ---
 
 ## Project Overview
 
-This project applies PCA and KMeans clustering to compare customer demographic segments with a broader German population dataset. The project is presented as academic unsupervised-learning evidence using anonymized/synthetic coursework data.
+This academic project uses demographic data, PCA, K-Means, representation analysis, centroid interpretation, and a refactored Python package to explore customer segments relative to a broader population.
 
 ## Problem
 
-The goal was to identify segments that are overrepresented or underrepresented in the customer base and describe the characteristics that distinguish those groups.
+The goal was to identify segments that are overrepresented or underrepresented in the customer base and examine the characteristics that distinguish those groups.
 
 ## Data / Inputs
 
-Local raw files include 891,221 population records, 191,652 customer records, and an 85-row feature summary. The project README notes that the dataset and prompt came through WGU/Udacity coursework.
+The project uses WGU/Udacity coursework data and keeps the results explicitly academic rather than presenting customer segments as production business findings.
 
 ## Architecture / Workflow
 
@@ -46,14 +46,14 @@ Population and customer demographic data
 
 ## Technical Implementation
 
-The repository uses a cookiecutter-style data science structure with modules for dataset handling, transformations, imputation/scaling, PCA, clustering, plotting, and model training/prediction helpers. That structure makes it stronger than a notebook-only project for analytics engineering and reproducibility signals.
+The workflow applied PCA and retained 144 components explaining 90.08% of variance. It selected K-Means k=8 with inertia elbow analysis and programmatic KneeLocator knee detection, then refactored the segmentation workflow into a documented installable Python package with nine modules.
 
 ## Results
 
-This pass publishes only verified data-size and feature-count metrics. Segment names, business interpretations, and performance-style claims should be reviewed against the notebook outputs before being promoted into resume bullets.
+No silhouette score or other cluster-separation metric was computed, and the final K-Means fit is unseeded. The page therefore does not claim cluster quality, production readiness, or business impact.
 
 ## Key Capabilities Demonstrated
 
-- Unsupervised learning workflow design.
-- Preprocessing and feature management for high-dimensional demographic data.
-- Translating clustering outputs into cautious business-segmentation language.
+- Unsupervised segmentation workflow design.
+- PCA, K-Means selection, and high-dimensional feature management.
+- Refactoring analytical work into a reusable Python package while keeping cluster interpretation cautious.
