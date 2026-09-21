@@ -8,7 +8,7 @@ category: "Data Wrangling / Analytics"
 role_targets: ["Data Analyst", "BI / Reporting Analyst", "Analytics Engineer"]
 technologies: ["Python", "Pandas", "Jupyter", "Matplotlib", "Seaborn", "CSV"]
 capabilities: ["Data cleaning", "Dataset joining", "Exploratory analysis", "Visualization", "Reproducible notebooks"]
-github: https://github.com/dantydcook/WGU-C687-JYM1
+github: https://github.com/DantyDCook/WGU_D497_Project_1
 image: /assets/images/projects/ufo-cdc-correlation.png
 image_alt: "Scatter plot visual output from the UFO sightings and CDC birth rate project."
 status: "Academic project / GitHub and local evidence"
