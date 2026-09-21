@@ -8,7 +8,7 @@ description: Evidence-backed data analytics, SQL, BI, and machine-learning proje
 <header class="page-hero">
   <p class="eyebrow">Project library</p>
   <h1>Evidence-backed technical projects</h1>
-  <p class="lede">Course numbers are preserved as context, but each project is framed around the professional capability it demonstrates: data transformation, reporting, modeling, validation, and communication.</p>
+  <p class="lede">Course numbers are preserved as context, but each project is framed around verified academic capabilities: data transformation, reporting, modeling, validation, and communication. Academic work is not presented as professional production experience.</p>
 </header>
 
 <section class="section">
