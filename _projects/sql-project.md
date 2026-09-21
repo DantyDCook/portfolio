@@ -1,30 +1,25 @@
 ---
-title: "PostgreSQL Data Transformation & Reporting Workflow"
-subtitle: "A staged PostgreSQL workflow using functions, procedures, triggers, and recommendation/reporting queries."
+title: "PostgreSQL Customer Rental Analytics & Recommendation Pipeline"
+subtitle: "A five-stage academic PostgreSQL workflow using PL/pgSQL procedures, trigger-driven updates, materialized reporting views, and rule-based recommendation ranking."
 course: "WGU D191"
 featured: true
 priority: 2
 category: "SQL / Data Engineering"
 role_targets: ["SQL Analyst", "Data Analyst", "Analytics Engineer"]
-technologies: ["PostgreSQL", "SQL", "PL/pgSQL", "CTEs", "Triggers", "Stored Procedures"]
-capabilities: ["Relational transformation", "Staging workflow", "Reporting query design", "Recommendation logic", "Database automation"]
+technologies: ["PostgreSQL", "SQL", "PL/pgSQL", "CTEs", "Window Functions", "Triggers", "Stored Procedures", "Materialized Views"]
+capabilities: ["Five-stage ETL", "Relational transformation", "Materialized reporting", "Rule-based recommendation logic", "Incremental database updates"]
 status: "Academic project / local evidence"
 evidence_note: "Evidence reviewed from preserved WGU coursework materials."
-metrics:
-  - label: "local SQL artifacts reviewed"
-    value: "42"
-  - label: "staging procedure imports source tables"
-    value: "11"
 published: true
 ---
 
 ## Project Overview
 
-This project demonstrates PostgreSQL transformation and reporting work through staged SQL files, PL/pgSQL functions, stored procedures, triggers, and recommendation queries. The current portfolio version treats this as an academic database workflow, not a production system.
+This academic project implements a five-stage PostgreSQL ETL pipeline across public, staging, and marketing schemas. It uses PL/pgSQL procedures, trigger-driven updates, materialized reporting views, and rule-based recommendation ranking. It is not presented as a production system, customer-data platform, or machine-learning recommender.
 
 ## Problem
 
-The workflow organizes rental, customer, film, inventory, store, and category data into tables and reportable outputs. It supports questions such as customer viewing history, genre ranking, rental ranking, and recommendation candidates.
+The workflow organizes DVD-rental sample data into analytical and reportable outputs, including category and film popularity, customer viewing history, and recommendation candidates.
 
 ## Data / Inputs
 
@@ -33,28 +28,28 @@ The source context is the DVD rental-style database used in the D191 coursework.
 ## Architecture / Workflow
 
 ```text
-Source database tables
-    -> Stage 1 table import procedure
-    -> Stage 2 cleanup and enrichment functions
-    -> Stage 3 reporting and change tracking functions
-    -> Recommendation and ranking queries
-    -> Reporting tables / review outputs
+Public source tables
+    -> staging import and enrichment
+    -> marketing transformations
+    -> trigger-driven popularity updates
+    -> materialized reporting views
+    -> rule-based recommendation ranking
 ```
 
 ## Technical Implementation
 
-The SQL artifacts include table creation scripts, stage procedures, cleanup functions, triggers, and CTE-heavy recommendation logic. One reviewed procedure imports 11 source tables into staging, and a reviewed recommendation query uses dense ranking, joins, exclusion logic, unions, and ordered candidate selection.
+The implementation uses PL/pgSQL procedures to orchestrate the five stages, trigger functions to incrementally update popularity and recommendation tables on rental events, and SQL window functions with array-based exclusion logic to avoid previously watched films.
 
 ## Results
 
-The verified metric available in this pass is structural: 42 local SQL artifacts were reviewed across the D191 SQL folders. Result-row counts and production performance metrics were not published because the missing discovery files did not provide vetted output measures.
+The project demonstrates a bounded academic implementation. It does not claim production deployment, real customer impact, benchmark performance, or machine-learning recommendation behavior.
 
 ## Key Capabilities Demonstrated
 
-- PostgreSQL workflow decomposition with staged procedures and functions.
-- SQL reporting logic with CTEs, joins, ranking, filtering, and unioned candidate sets.
-- Careful academic-to-professional framing that avoids implying enterprise deployment.
+- Five-stage PostgreSQL ETL orchestration with procedures and functions.
+- Trigger-driven incremental updates and materialized reporting views.
+- Rule-based recommendation ranking with CTEs, joins, window functions, and array-based exclusions.
 
 ## Academic Context
 
-Completed for WGU D191. This page should receive a later CareerOps evidence pass if the project is promoted into canonical resume claims.
+Completed for WGU D191. Its public wording is based on canonical CareerOps evidence and remains explicitly academic in scope.
