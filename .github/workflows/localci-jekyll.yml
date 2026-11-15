@@ -1,0 +1,45 @@
+name: LocalCI Jekyll site
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  production:
+    if: github.repository == 'DantyDCook/portfolio' && github.ref == 'refs/heads/main'
+    runs-on: [self-hosted, linux, x64, local-ci, hyperv-ci]
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+      - name: Build locked Jekyll site
+        shell: bash
+        run: |
+          set -euo pipefail
+          docker run --rm --pull=always --name "localci-jekyll-${GITHUB_RUN_ID}" \
+            --cpus=2 --memory=4g --memory-swap=4g --pids-limit=256 \
+            --cap-drop=ALL --security-opt=no-new-privileges \
+            --user "$(id -u):$(id -g)" \
+            --tmpfs /tmp:rw,exec,nosuid,nodev,size=2g \
+            -e HOME=/tmp -e BUNDLE_PATH=/tmp/bundle \
+            -v "$GITHUB_WORKSPACE:/site:rw" -w /site \
+            'ruby:3.2@sha256:d3bcbd845d26ae1efafcc987f641aa9ac796267b9b857e0f196a2b05070c8330' \
+            bash -lc 'bundle install --deployment && bundle exec jekyll build'
+          test -s _site/index.html
+          mkdir -p artifacts
+          tar -C _site -czf "artifacts/portfolio-${GITHUB_SHA:0:12}.tar.gz" .
+          (cd artifacts && sha256sum -- *.tar.gz > SHA256SUMS.txt)
+          cat artifacts/SHA256SUMS.txt
+      - name: Remove build container
+        if: always()
+        run: docker rm -f "localci-jekyll-${GITHUB_RUN_ID}" 2>/dev/null || true
+      - uses: actions/upload-artifact@v7
+        if: always()
+        with:
+          name: portfolio-site-${{ github.sha }}
+          path: artifacts/
+          if-no-files-found: warn
+          retention-days: 30
